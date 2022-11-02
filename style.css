@@ -1,0 +1,98 @@
+/* CSS RESET */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* GENERICS */
+
+.container{
+    max-width: 60%;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    margin: 40px 0;
+}
+
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: grey;
+}
+
+/* HEADER */
+header{
+    min-height: 60px;
+    background-color: #ADD8E6;
+    display: flex;
+}
+
+.logo, .login{
+    flex-basis: 20%;
+
+}
+
+.login{
+    text-align: right;
+}
+
+.nav-flex{
+    display: flex;
+    width: 60%;
+    background-color:#DAA520;
+    margin: auto;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.link{
+    flex-basis: 60%;
+    text-align: center;
+}
+
+/* MAIN */
+.main-section{
+    background-color:#00008B ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco-violet{
+    height: 300px;
+    width: 50%;
+    background-color: #EE82EE;
+    border: 1px dashed black;
+}
+
+/* BLOCCHI */
+
+.blue-box{
+    background-color: #1E90FF;
+    min-height: 400px;
+    width: 60%;
+    flex-direction: ;
+}
+
+.salmon-box{
+    background-color: #FFC0CB;
+    height: 400px;
+    width: 40%;
+}
+
+
+.bg{
+    margin: 40px 0;
+}
+
+/* FLEXBOX */
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
