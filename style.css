@@ -25,6 +25,10 @@ section{
     background-color: grey;
 }
 
+.darkgrey{
+    background-color: #23272A;
+}
+
 /* HEADER */
 header{
     min-height: 60px;
@@ -77,15 +81,38 @@ header{
     background-color: #1E90FF;
     min-height: 400px;
     width: 60%;
-    flex-direction: ;
 }
 
-.salmon-box{
+.pink-box{
     background-color: #FFC0CB;
     height: 400px;
     width: 40%;
 }
 
+.green-box{
+    background-color: green;
+    min-height: 600px;
+    width: 100%;
+}
+
+.salmon-box{
+    background-color: #F08080;
+    min-height: 400px;
+    flex-basis: 30%;
+    display: flex;
+}
+
+.green-water{
+    background-color:#20B2AA ;
+    min-height: 400px;
+    flex-basis:70%
+}
+
+.small-box{
+    background-color: #20B2AA;
+    min-height: 400px;
+    width:calc(70% /4)
+}
 
 .bg{
     margin: 40px 0;
