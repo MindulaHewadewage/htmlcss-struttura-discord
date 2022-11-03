@@ -75,6 +75,26 @@ header{
     border: 1px dashed black;
 }
 
+
+/* FOOTER */
+.footer-flex{
+    display: flex;
+    width: 60%;
+    background-color:#7FFFD4;
+    margin: auto;
+    border: 1px dashed black;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.logo-footer, .bottone{
+    background-color: #F08080;
+    border: 1px dashed black;
+    
+}
+    
+
 /* BLOCCHI */
 
 .blue-box{
@@ -93,6 +113,8 @@ header{
     background-color: green;
     min-height: 600px;
     width: 100%;
+    border: 1px dashed black;
+
 }
 
 .salmon-box{
@@ -100,18 +122,21 @@ header{
     min-height: 400px;
     flex-basis: 30%;
     display: flex;
+    border: 1px dashed black;
+
 }
 
 .green-water{
-    background-color:#20B2AA ;
     min-height: 400px;
-    flex-basis:70%
+    flex-basis:70%;
+    display: flex;
 }
 
 .small-box{
     background-color: #20B2AA;
     min-height: 400px;
-    width:calc(70% /4)
+    width:calc(100% /4);
+    border: 1px dashed white;
 }
 
 .bg{
